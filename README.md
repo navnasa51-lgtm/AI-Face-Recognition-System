@@ -21,7 +21,25 @@ An optimized, real-time edge AI surveillance system built using Python. This pro
 
 ## 🛠️ Prerequisites & Installation
 
-### 1. Clone the repository
+### 1. Clone the repository ###
 ```bash
 git clone [https://github.com/muhammedafnasok-design/ai-surveillance-system.git](https://github.com/muhammedafnasok-design/ai-surveillance-system.git)
 cd ai-surveillance-system
+```
+### 2. Install Dependencies
+```
+pip install -r requirements.txt
+```
+[!NOTE]
+
+The database/ and embeddings/ folders will automatically generate when you execute the script below. Alternatively, you can create the database/ folder by yourself beforehand if you want to place your target user image folders inside manually.
+### 3. Train Faces
+```
+python train_faces.py
+```
+### 4. Run the Project
+```
+python main.py
+```
+
+
